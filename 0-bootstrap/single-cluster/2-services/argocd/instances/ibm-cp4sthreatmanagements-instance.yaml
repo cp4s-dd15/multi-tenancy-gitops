@@ -27,8 +27,10 @@ spec:
         value: threatmgmt
       - name: spec.acceptLicense
         value: "true"
+      - name: spec.basicDeploymentConfiguration.domain
+        value: dd15.cloudpaksecurity.com
       - name: spec.basicDeploymentConfiguration.adminUser
-        value: adminUser
+        value: dgdruker@us.ibm.com
       - name: spec.basicDeploymentConfiguration.storageClass
         value: managed-nfs-storage
       - name: spec.extendedDeploymentConfiguration.airgapInstall
